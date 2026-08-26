@@ -1,0 +1,270 @@
+body
+{
+   background-color: #FFFFFF;
+   background-image: url('images/tumblr_fc0ee770b48dfdfd37c52852c07597c9_2557bc1d_1280.gif');
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#FlexGrid1
+{
+   display: grid;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size: 0;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 100px auto auto auto 100px;
+   grid-template-areas:
+      "header header header header header"
+      "nav item-3 main item-2 sidebar"
+      "item-5 item-0 item-4 item-6 item-7"
+      "item-1 item-1 item-1 item-1 item-1"
+      "footer footer footer footer footer";
+}
+#FlexGrid1 .header
+{
+   display: flex;
+   grid-area: header;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .nav
+{
+   display: flex;
+   grid-area: nav;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .item-3
+{
+   display: flex;
+   grid-area: item-3;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .main
+{
+   display: flex;
+   grid-area: main;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .item-2
+{
+   display: flex;
+   grid-area: item-2;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .sidebar
+{
+   display: flex;
+   grid-area: sidebar;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: flex-end;
+   align-content: flex-end;
+}
+#FlexGrid1 .item-5
+{
+   display: flex;
+   grid-area: item-5;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .item-0
+{
+   display: flex;
+   grid-area: item-0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .item-4
+{
+   display: flex;
+   grid-area: item-4;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .item-6
+{
+   display: flex;
+   grid-area: item-6;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .item-7
+{
+   display: flex;
+   grid-area: item-7;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .item-1
+{
+   display: flex;
+   grid-area: item-1;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .footer
+{
+   display: flex;
+   grid-area: footer;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+#wb_Image1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 5px double #8B008B;
+   border-radius: 50%;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text1
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
